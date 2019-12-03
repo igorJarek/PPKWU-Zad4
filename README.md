@@ -21,3 +21,11 @@ If we want manually type name and surname (both are required), we must be sure t
 
 ### Example
 `/generate?name=piotr+nowak`
+
+##### If we don't want use endpoints maunally (go through the following list of steps):
+- run application (application runing on port 80)
+- move to browser and type "localhost"
+- type name, surname or both
+- wait a moment for results
+- click interesting employee link
+- wait a moment for your vCard file

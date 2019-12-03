@@ -9,7 +9,7 @@ Endpoints
 
 This endpoint will return .html page contains list of employees, where we can choose, which of them will return vCard.
 
-#####Example
+###Example
 > B/search?name=piotr // only name
 > B/search?name=nowak // only surname
 > B/search?name=piotr+nowak // both of them connected with '+' character
@@ -19,5 +19,5 @@ This endpoint will return .html page contains list of employees, where we can ch
 This endpoint will return vCard (.vcf) file ready to download.
 If we want manually type name and surname (both are required), we must be sure that, only one person has typed name and surname.
 
-#####Example
+###Example
 > B/generate?name=piotr+nowak
